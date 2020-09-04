@@ -1,0 +1,160 @@
+ html,
+ body,
+ #cover{
+    height: 100%;
+ }
+#cover{
+    
+    background: url('../images/header-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+.fixed-top{
+    max-width: 1440px;
+    transition: 0.2s  all linear;
+    
+}
+h1{
+    margin-top: 25%;
+}
+.services-top{
+
+    text-align: center;
+}
+.item-circle{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 200px;
+    background-color:#ffc107;
+    padding: 25px 20px;
+}
+.services-content{
+    color: grey;
+}
+#portfolio{
+    background-color: #f7f7f7;
+    padding: 120px 0px;
+}
+.white{
+color: white;
+}
+.mt-30px{
+ margin-top: 30px;
+}
+.be-part-of-our-story{
+
+    margin-left: 465px;
+    height: 200px;
+}
+.aboutUs-Content{
+    position: relative;
+
+}
+.aboutUs-Content:before{
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    background-color: grey;
+    width: 2px;
+
+}
+.team-mt{
+
+    margin-top: 120px;
+    background-color: #f8f9fa;
+
+}
+.team-circle{
+    height: 220px;
+    width: 220px;
+    background-color: black;
+    border-radius: 220px;
+    margin: 0 auto
+    border 6px solid white;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.social-icons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.social-icon{
+    display: inline;
+}
+
+section{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#contact{
+    background: url('../images/bacgorund-map.png') no-repeat center center fixed;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-color: black;
+    padding: 120px 0;
+}
+#name{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 25px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+#email{
+    width: 90%;
+    height: 50px;
+    margin-bottom: 25px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+
+#subject{
+
+    width: 90%;
+    height: 50px;
+    margin-bottom: 25px;
+    border-style: none;
+    border-radius: 3px;
+    padding-left: 20px;
+
+}
+textarea{
+    width: 90%;
+    height: 203px;
+    border-style: none;
+    border-radius: 3px;
+    padding-top: 20px;
+}
+#footer{
+
+    padding: 20px;
+    line-height: 20px;
+}
+.company-social-icons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.company-social-icon{
+    display: inline;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.fixed-top.change-fixed-top{
+margin-top: 0;
+background-color: black;
+
+}
